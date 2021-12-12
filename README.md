@@ -11,7 +11,7 @@ These files have been tested and used to generate a live ELK deployment on Azure
 
   - _Hosts: [https://github.com/martinjs209/Cyber-Security-Class-Files/Ansible/hosts](Ansible/hosts)_
 
-  - _Ansible Configuration: https://github.com/martinjs209/Cyber-Security-Class-Files/Ansible/ansible.config_
+  - _Ansible Configuration: [https://github.com/martinjs209/Cyber-Security-Class-Files/Ansible/ansible.config](Ansible/ansible.config)_
 
 This document contains the following details:
 - Description of the Topologu
