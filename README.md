@@ -7,7 +7,7 @@ The files in this repository were used to configure the network depicted below.
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the ansible playbook file may be used to install only certain pieces of it, such as Filebeat.
 
-  - _Install-Elk: [https://github.com/martinjs209/Cyber-Security-Class-Files/blob/main/Ansible/Install-elk.yml](/Ansible/Install-elk.yml)
+  - _Install-Elk: [https://github.com/martinjs209/Cyber-Security-Class-Files/Ansible/Install-elk.yml](/Ansible/Install-elk.yml)
 
   - _Hosts: https://github.com/martinjs209/Cyber-Security-Class-Files/blob/main/Ansible/hosts_
 
