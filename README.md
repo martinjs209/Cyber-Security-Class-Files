@@ -48,10 +48,10 @@ _Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdow
 The machines on the internal network are not exposed to the public Internet. 
 
 Only the Jump-Box machine can accept connections from the Internet. Access to this machine is only allowed from the following IP addresses:
-- _Personal Public IP Address
+- _Personal Public IP Address_
 
 Machines within the network can only be accessed by Jump-Box.
-- _The Jump-Box machine can connect by SSH to Elk-Stack machine by using Port 22. Also another connection can be made through Port 5601 by using a Personal IP Address.
+- _The Jump-Box machine can connect by SSH to Elk-Stack machine by using Port 22. Also another connection can be made through Port 5601 by using a Personal IP Address._
 
 A summary of the access policies in place can be found in the table below.
 
@@ -82,16 +82,16 @@ The following screenshot displays the result of running `docker ps` after succes
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
-- _Web-1 10.1.0.5
-- _Web-2 10.1.0.6
+- _Web-1 10.1.0.5_
+- _Web-2 10.1.0.6_
 
 We have installed the following Beats on these machines:
 - _Filebeat and Metricbeat_
 
 These Beats allow us to collect the following information from each machine:
-- _Filebeat is collecting and monitoring logs on the machine and then pushes this information to Elasticsearch. File would be used as a method to verify logs and would then push these logs to Elk-Stack machine.
+- _Filebeat is collecting and monitoring logs on the machine and then pushes this information to Elasticsearch. File would be used as a method to verify logs and would then push these logs to Elk-Stack machine._
 
-- _Metricbeat gathers stats from the machines and pushes that data to Elasticsearch. Metricbeat analysis the system logs and can give you basic information like running time of a system.
+- _Metricbeat gathers stats from the machines and pushes that data to Elasticsearch. Metricbeat analysis the system logs and can give you basic information like running time of a system._
 
 ### Using the Playbook
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned: 
