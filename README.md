@@ -7,7 +7,7 @@ The files in this repository were used to configure the network depicted below.
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the ansible playbook file may be used to install only certain pieces of it, such as Filebeat.
 
-  - _Install-Elk: [https://github.com/martinjs209/Cyber-Security-Class-Files/Ansible/Install-elk.yml](/Ansible/Install-elk.yml)
+  - _Install-Elk: [https://github.com/martinjs209/Cyber-Security-Class-Files/Ansible/Install-elk.yml](/Ansible/Install-elk.yml)_
 
   - _Hosts: [https://github.com/martinjs209/Cyber-Security-Class-Files/Ansible/hosts](Ansible/hosts)_
 
@@ -27,7 +27,7 @@ This document contains the following details:
 The main purpose of this network is to expose a load-balanced and monitored instance of DVWA, the D*mn Vulnerable Web Application.
 
 Load balancing ensures that the application will be highly available, in addition to restricting access to the network.
-- _TODO: What aspect of security do load balancers protect? What is the advantage of a jump box?_Load balancers help mitagate against DDoS attacks and such other attacks. The advantage of having a jump box is to inspect incoming traffic and to prevent unwanted access.
+- _Load balancers help mitagate against DDoS attacks and such other attacks. The advantage of having a jump box is to inspect incoming traffic and to prevent unwanted access._
 
 Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the data and system logs.
 - _The purpose of Filebeat is to collect log files and to push it to Elasticsearch or Logstash._
