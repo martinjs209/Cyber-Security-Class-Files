@@ -33,8 +33,6 @@ Integrating an ELK server allows users to easily monitor the vulnerable VMs for 
 - _The purpose of Filebeat is to collect log files and to push it to Elasticsearch or Logstash._
 - _The purpose of Metricbeat is to records stats and to push that information to Elasticsearch or Logstash_
 
-The configuration details of each machine may be found below.
-_Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdown_tables) to add/remove values from the table._
 
 | Name      | Function   | IP Address | Operation System |
 |-----------|------------|------------|------------------|
@@ -100,5 +98,3 @@ SSH into the control node and follow the steps below:
 - Copy the filebeat-config.yml file to /etc/ansible/files.
 - Update the /etc/ansible/hosts file to include the IP Address' of the webservers and Elk-Stack.
 - Run the playbook, and navigate to http://52.180.67.88:5601/app/kibana to check that the installation worked as expected.
-
-_As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._
