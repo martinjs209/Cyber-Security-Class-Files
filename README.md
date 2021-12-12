@@ -3,7 +3,7 @@
 
 The files in this repository were used to configure the network depicted below.
 
-![https://github.com/martinjs209/Cyber-Security-Class-Files/blob/main/Diagram/Security%20Diagram.drawio] (https://github.com/martinjs209/Cyber-Security-Class-Files/blob/3e63dfc2f2721de5f91a7285d7f2fb5f6aa03d1b/Images/ELK-Docker-PS.png)
+![https://github.com/martinjs209/Cyber-Security-Class-Files/blob/main/Diagram/Security%20Diagram.drawio](Images/ELK-Docker-PS.png)
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the ansible playbook file may be used to install only certain pieces of it, such as Filebeat.
 
